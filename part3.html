@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+  .center { 
+    text-align: center; 
+  }
+</style>
+</head>
+<body>
+	<div style="border: 1px solid black; border-width: medium; width: 700px;" >
+  <h2>Медицинская история</h2>
+  <form>
+  	<h4>Полное Имя</h4>
+   <div style="display: inline-grid;">	
+    <input type="text" id="fname" name="fname" required>
+    <label for="fname">Имя</label>
+   </div>
+   <div style="display: inline-grid;">   
+    <input type="text" id="lname" name="lname" required> 
+    <label for="lname">Фамилия</label>
+   </div>
+  </form>
+  <form>
+    <h4>Номер телефона</h4>
+    <input type="text" id="phone" name="phone" placeholder="(000)000-0000" required>
+  </form>
+  <form>
+  	<h3>Check the conditions that apply to you or to any members of your immediate relatives:</h3>
+  	<input type="checkbox" id="il1" name="il1" value="Asthma">
+  	<label for="il1">Asthma</label><br>
+  	<input type="checkbox" id="il2" name="il2" value="Cancer">
+  	<label for="il2">Cancer</label><br>
+  	<input type="checkbox" id="il3" name="il3" value="Cardiac disease">
+  	<label for="il3">Cardiac disease</label><br>
+  	<input type="checkbox" id="il4" name="il4" value="Diabetes">
+  	<label for="il4">Diabetes</label><br>
+  	<input type="checkbox" id="il5" name="il5" value="Hypertension">
+  	<label for="il5">Hypertension</label><br>
+  	<input type="checkbox" id="il6" name="il6" value="Psychiatric disorder">
+  	<label for="il6">Psychiatric disorder</label><br>
+  	<input type="checkbox" id="il7" name="il7" value="Epilepsy">
+  	<label for="il7">Epilepsy</label><br>
+  </form>
+  <form>
+  	<h3>Check the symptoms that you're currently experiencing:</h3>
+  	<input type="checkbox" id="sy1" name="sy1" value="Chest pain">
+  	<label for="sy1">Chest pain</label><br>
+
+  	<input type="checkbox" id="sy2" name="sy2" value="Respiratory">
+  	<label for="sy2">Respiratory</label><br>
+
+  	<input type="checkbox" id="sy3" name="sy3" value="Cardiac disease">
+  	<label for="sy3">Cardiac disease</label><br>
+
+  	<input type="checkbox" id="sy4" name="sy4" value="Cardiovascular">
+  	<label for="sy4">Cardiovascular</label><br>
+
+  	<input type="checkbox" id="sy5" name="sy5" value="Hematological">
+  	<label for="sy5">Hematological</label><br>
+
+  	<input type="checkbox" id="sy6" name="sy6" value="Lymphatic">
+  	<label for="sy6">Lymphatic</label><br>
+
+  	<input type="checkbox" id="sy7" name="sy7" value="Neurological">
+  	<label for="sy7">Neurological</label><br>
+
+  	<input type="checkbox" id="sy8" name="sy8" value="Psychiatric">
+  	<label for="sy8">Psychiatric</label><br>
+
+  	<input type="checkbox" id="sy9" name="sy9" value="Gastrointestinal">
+  	<label for="sy9">Gastrointestinal</label><br>
+
+  	<input type="checkbox" id="sy10" name="sy10" value="Genitourinary">
+  	<label for="sy10">Genitourinary</label><br>
+
+  	<input type="checkbox" id="sy11" name="sy11" value="Weight gain">
+  	<label for="sy11">Weight gain</label><br>
+
+  	<input type="checkbox" id="sy12" name="sy12" value="Weight loss">
+  	<label for="sy12">Weight loss</label><br>
+
+  	<input type="checkbox" id="sy13" name="sy13" value="Musculoskeletal">
+  	<label for="sy13">Musculoskeletal</label><br>
+  </form>
+  <form>
+  	<h3>Are you currently taking any medication?</h3>
+  	<input type="radio" id="ans1" name="ans1" value="Да">
+  	<label for="ans1">Да</label><br>
+  	<input type="radio" id="ans2" name="ans2" value="Нет">
+  	<label for="ans2">Нет</label>
+  </form>
+  <form>
+  	<h3>Do you have any medication allergies?</h3>
+  	<input type="radio" id="ans11" name="ans11" value="Да">
+  	<label for="ans11">Да</label><br>
+  	<input type="radio" id="ans22" name="ans22" value="Нет">
+  	<label for="ans22">Нет</label><br>
+  	<input type="radio" id="ans33" name="ans33" value="Not Sure">
+  	<label for="ans33">Not Sure</label>
+  </form>
+  <form>
+  	<h3>What is your gender?</h3>
+  	<input type="radio" id="male" name="male" value="Мужской">
+  	<label for="male">Мужской</label><br>
+  	<input type="radio" id="female" name="female" value="Женский пол">
+  	<label for="female">Женский пол</label>
+  </form>
+   <form>
+   	<h3>Do you use or do you have history of using tobacco?</h3>
+   	<select id="answer1" name="answer1" style="width: 200px;">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+    </select>
+   </form>
+   <form>
+   	<h3>Do you use or do you have history of using illegal drugs?</h3>
+   	<select id="answer2" name="answer2" style="width: 200px;">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+    </select>
+   </form>
+    <form>
+    	<h3>How often do you consume alcohol?</h3>
+    	<input type="radio" id="al1" name="Ежедневно">
+    	<label for="al1">Ежедневно</label>
+
+    	<input type="radio" id="al2" name="Еженедельно">
+    	<label for="al2">Еженедельно</label>
+
+    	<input type="radio" id="al3" name="Ежемесячно">
+    	<label for="al3">Ежемесячно</label><br>
+
+    	<input type="radio" id="al4" name="Occasionaly">
+    	<label for="al4">Occasionaly</label>
+
+    	<input type="radio" id="al5" name="Никогда">
+    	<label for="al5">Никогда</label><br>
+    </form>
+
+    <form>
+    	<div class="center">
+    	<input type="submit" value="Отправить">
+    </div>
+    </form>
+</div>
+</body>
+</html>
